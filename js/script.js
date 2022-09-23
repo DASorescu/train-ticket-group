@@ -6,7 +6,6 @@ const imputSurname = document.getElementById("surname");
 const imputAge = document.getElementById("age");
 const travelLenght = document.getElementById("km");
 
-// calcolo il prezzo del biglietto senza sconti
 
 
 // put a listener to the button 
