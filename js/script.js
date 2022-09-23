@@ -30,9 +30,7 @@ button.addEventListener("click", function () {
         ticketPrice *= 0.6;
     }
 
-    console.log(ticketPrice);
 
     // faccio visualizzare il risultato a schermo
-    const result = document.getElementById("result");
     document.getElementById("result").innerHTML = `<p> Il prezzo del suo biglietto &egrave; ${ticketPrice} &euro; ! </p>`
 })
